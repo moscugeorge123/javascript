@@ -1,0 +1,38 @@
+body,
+html {
+  padding: 30px;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #999;
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+div {
+  min-height: 30px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.container-left,
+.container-right {
+  width: 48%;
+  margin: 1%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.container-left {
+  float: left;
+}
+
+.container-right {
+  float: right;
+}
